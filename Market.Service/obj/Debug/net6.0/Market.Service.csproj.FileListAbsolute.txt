@@ -1,0 +1,17 @@
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Service.deps.json
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Service.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Service.pdb
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.csproj.AssemblyReference.cache
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.AssemblyInfoInputs.cache
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.AssemblyInfo.cs
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.csproj.CoreCompileInputs.cache
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\refint\Market.Service.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.pdb
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\ref\Market.Service.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Domain.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Domain.pdb
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\obj\Debug\net6.0\Market.Service.csproj.CopyComplete
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Data.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Service\bin\Debug\net6.0\Market.Data.pdb

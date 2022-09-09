@@ -1,0 +1,12 @@
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\bin\Debug\net6.0\Market.Domain.deps.json
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\bin\Debug\net6.0\Market.Domain.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\bin\Debug\net6.0\Market.Domain.pdb
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.csproj.AssemblyReference.cache
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.AssemblyInfoInputs.cache
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.AssemblyInfo.cs
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.csproj.CoreCompileInputs.cache
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\refint\Market.Domain.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\Market.Domain.pdb
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Domain\obj\Debug\net6.0\ref\Market.Domain.dll
