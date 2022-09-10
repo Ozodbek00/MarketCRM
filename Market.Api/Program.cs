@@ -17,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<MarketDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MarketDb")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("MarketDb")));
 
 
 
