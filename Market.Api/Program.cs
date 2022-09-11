@@ -1,16 +1,6 @@
 using Market.Api.Extensions;
 using Market.Data.DbContexts;
-using Market.Data.IRepositories;
-using Market.Data.Repositories;
-using Market.Service.Interfaces;
-using Market.Service.Interfaces.IOrderService;
-using Market.Service.Interfaces.IPurchaseServices;
-using Market.Service.Interfaces.IUserServices;
 using Market.Service.Mappers;
-using Market.Service.Services.OrderServices;
-using Market.Service.Services.ProductServices;
-using Market.Service.Services.PurchaseServices;
-using Market.Service.Services.UserServices;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
