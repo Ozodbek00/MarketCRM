@@ -1,3 +1,4 @@
+using Market.Api.Extensions;
 using Market.Data.DbContexts;
 using Market.Data.IRepositories;
 using Market.Data.Repositories;
@@ -32,12 +33,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IPurchaseService, PurchaseService>();
+builder.Services.AddCustomServices();
 
 var app = builder.Build();
 

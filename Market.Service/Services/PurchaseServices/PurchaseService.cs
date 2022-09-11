@@ -47,7 +47,7 @@ namespace Market.Service.Services.PurchaseServices
         }
 
         public async Task<IEnumerable<Purchase>> GetAllAsync(PaginationParams @params, Expression<Func<Purchase, bool>> expression = null)
-            => await unitOfWork.Purchases.GetAllAsync(expression, "Product")
+            => await unitOfWork.Purchases.GetAllAsync(expression, "Product", isTracking: false)
                                          .ToPagedList(@params).ToListAsync();
 
         public async Task<Purchase> GetAsync(Expression<Func<Purchase, bool>> expression = null)

@@ -27,7 +27,7 @@ namespace Market.Data.Repositories
         {
             IQueryable<TSource> query = expression is null ? _dbSet : _dbSet.Where(expression);
 
-            if (!string.IsNullOrEmpty(include))
+            if ((!string.IsNullOrEmpty(include)))
                 query = query.Include(include);
 
             if (!isTracking)
