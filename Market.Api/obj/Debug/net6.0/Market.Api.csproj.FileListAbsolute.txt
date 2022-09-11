@@ -46,3 +46,4 @@ D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Newtonsoft.Js
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Newtonsoft.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Npgsql.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Market.Api.staticwebassets.runtime.json

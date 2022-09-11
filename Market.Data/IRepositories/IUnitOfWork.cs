@@ -1,12 +1,14 @@
-﻿namespace Market.Data.IRepositories
+﻿using Market.Domain.Entities;
+
+namespace Market.Data.IRepositories
 {
     public interface IUnitOfWork : IDisposable
     {
-        IProductRepository Products { get; }
-        ICategoryRepository Categories { get; }
-        IUserRepository Users { get; }
-        IOrderRepository Orders { get; }
-        IPurchaseRepository Purchases { get; }
+        IGenericRepository<Product> Products { get; }
+        IGenericRepository<Category> Categories { get; }
+        IGenericRepository<User> Users { get; }
+        IGenericRepository<Order> Orders { get; }
+        IGenericRepository<Purchase> Purchases { get; }
 
         Task SaveChangesAsync();
     }

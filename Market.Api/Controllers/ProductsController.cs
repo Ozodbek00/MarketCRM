@@ -50,6 +50,10 @@ namespace Market.Api.Controllers
             => await _productService.DeleteAsync(p => p.Id == id);
         #endregion
 
+        [HttpGet("Category")]
+        public async ValueTask<IActionResult> GetAllCategoriesAsync([FromQuery] PaginationParams @params)
+            => Ok(await _categoryService.GetAllCategoriesAsync(@params));
+
         [HttpPost("Category")]
         public async ValueTask<ActionResult<Category>> AddCategoryAsync(string dto)
             => Ok(await _categoryService.AddCategoryAsync(dto));

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "GAs/xbV9iE/BBRmEW5z3w9sU9vxsrTfH1ImGJJCwKsI=",
+  "Hash": "xkFXs6P2g1TY8M5zO6yXyf4KrdURF8+zZd/yxN4Qoy8=",
   "Source": "Market.Api",
   "BasePath": "_content/Market.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Market.Api\\wwwroot",
+      "Source": "Market.Api",
+      "ContentRoot": "D:\\Ozodbekkkkk\\Codes\\DotNet\\Market.Api\\Market.Api\\wwwroot\\",
+      "BasePath": "_content/Market.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

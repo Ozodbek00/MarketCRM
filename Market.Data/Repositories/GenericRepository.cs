@@ -5,8 +5,7 @@ using System.Linq.Expressions;
 
 namespace Market.Data.Repositories
 {
-#pragma warning disable
-    public abstract class GenericRepository<TSource> : IGenericRepository<TSource> where TSource : class
+    public class GenericRepository<TSource> : IGenericRepository<TSource> where TSource : class
     {
         protected readonly MarketDbContext _dbContext;
         protected readonly DbSet<TSource> _dbSet;
