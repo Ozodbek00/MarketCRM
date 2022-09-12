@@ -47,3 +47,13 @@ D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Swashbuckle.A
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Npgsql.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Market.Api.staticwebassets.runtime.json
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Sinks.File.dll

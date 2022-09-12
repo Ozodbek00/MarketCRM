@@ -1,7 +1,9 @@
 using Market.Api.Extensions;
+using Market.Api.Middlewares;
 using Market.Data.DbContexts;
 using Market.Service.Mappers;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +25,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Log
+
+var logger = new LoggerConfiguration()
+        .ReadFrom.Configuration(builder.Configuration)
+        .Enrich.FromLogContext()
+        .CreateLogger();
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
+
+
+// Services 
 builder.Services.AddCustomServices();
 
 var app = builder.Build();
@@ -34,7 +47,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     app.UseSwaggerUI();
 }
 
-//app.UseMiddleware<MarketMiddleware>();
+app.UseMiddleware<MarketMiddleware>();
 
 //app.Use(async (context, next) => 
 //{ 

@@ -3,6 +3,7 @@ using Market.Domain.Entities;
 using Market.Service.DTOs.UserDtos;
 using Market.Service.Interfaces.IUserServices;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Market.Api.Controllers
 {
@@ -11,10 +12,12 @@ namespace Market.Api.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService userService;
+        private readonly ILogger<UserController> logger;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, ILogger<UserController> logger)
         {
             this.userService = userService;
+            this.logger = logger;
         }
 
         [HttpGet]
