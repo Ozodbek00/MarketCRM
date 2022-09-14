@@ -1,18 +1,16 @@
-﻿using Market.Service.Exceptions;
-using Newtonsoft.Json;
-using System.Net;
+﻿using log4net;
+using Market.Service.Exceptions;
 
 namespace Market.Api.Middlewares
 {
     public class MarketMiddleware
     {
         public RequestDelegate next;
-        private readonly ILogger<MarketMiddleware> logger;
+        private readonly ILog logger = LogManager.GetLogger(typeof(MarketMiddleware));
 
-        public MarketMiddleware(RequestDelegate next, ILogger<MarketMiddleware> logger)
+        public MarketMiddleware(RequestDelegate next)
         {
             this.next = next;
-            this.logger = logger;
         }
 
         public async Task Invoke(HttpContext context)
@@ -25,24 +23,25 @@ namespace Market.Api.Middlewares
 
             catch (CustomException ex)
             {
-                throw new CustomException(404, "Not found!");
+                await HandleException(context, ex.Code, ex.Message);
             }
 
             catch(Exception ex)
             {
-                await HandleException(context, ex);
+                logger.Error(ex.ToString());
+                await HandleException(context, 500, ex.Message);
             }
         }
 
-        private Task HandleException(HttpContext context, Exception ex)
+        private async Task HandleException(HttpContext context, int code, string message)
         {
-            logger.LogError(ex.ToString());
-            var errorMessageObject = new { Message = ex.Message, Code = "system_error" };
+            context.Response.StatusCode = code;
 
-            var errorMessage = JsonConvert.SerializeObject(errorMessageObject);
-            context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-            return context.Response.WriteAsync(errorMessage);
+            await context.Response.WriteAsJsonAsync(new
+            {
+                Code = code,
+                Message = message
+            });
         }
     }
 }

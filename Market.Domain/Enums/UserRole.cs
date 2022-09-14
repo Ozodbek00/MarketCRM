@@ -2,8 +2,9 @@
 {
     public enum UserRole
     {
-        Customer = 1,
+        User,
         Seller,
+        Operator,
         Admin,
         SuperAdmin
     }

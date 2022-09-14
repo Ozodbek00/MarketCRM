@@ -25,18 +25,25 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Log
-
-var logger = new LoggerConfiguration()
-        .ReadFrom.Configuration(builder.Configuration)
-        .Enrich.FromLogContext()
-        .CreateLogger();
-builder.Logging.ClearProviders();
-builder.Logging.AddSerilog(logger);
-
+builder.Services.AddJwtService(builder.Configuration);
 
 // Services 
 builder.Services.AddCustomServices();
+
+
+//Log
+
+builder.Logging.AddLog4Net("log4net.config");
+builder.Logging.SetMinimumLevel(LogLevel.Error);
+
+//var logger = new LoggerConfiguration()
+//        .ReadFrom.Configuration(builder.Configuration)
+//        .Enrich.FromLogContext()
+//        .CreateLogger();
+//builder.Logging.ClearProviders();
+//builder.Logging.AddSerilog(logger);
+
+
 
 var app = builder.Build();
 
