@@ -44,7 +44,7 @@
           }
         }
       },
-      "log4net/2.0.15": {
+      "log4net/2.0.13": {
         "type": "package",
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0"
@@ -676,7 +676,7 @@
           }
         }
       },
-      "Serilog.AspNetCore/6.0.1": {
+      "Serilog.AspNetCore/6.1.0-dev-00281": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.0",
@@ -1186,15 +1186,17 @@
         "logo.png"
       ]
     },
-    "log4net/2.0.15": {
-      "sha512": "GahnO9ZgFka+xYcFwAfIFjW+k86P2nxFoaEpH6t3v4hiGj7tv2ksVZphxCVIHmJxoySS0HeU3dgCW+bSCcfD0A==",
+    "log4net/2.0.13": {
+      "sha512": "VUx7nr+IovTkL8ZFeKqGtAGCYmzOk1rCvE8NqH2NucZudVb47i99FhwcpTI4UroOBGuUstXCh5F6Zx3/x1nd2w==",
       "type": "package",
-      "path": "log4net/2.0.15",
+      "path": "log4net/2.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net20/log4net.dll",
         "lib/net20/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
         "lib/net35/log4net.dll",
         "lib/net35/log4net.xml",
         "lib/net40-client/log4net.dll",
@@ -1207,7 +1209,7 @@
         "lib/netstandard1.3/log4net.xml",
         "lib/netstandard2.0/log4net.dll",
         "lib/netstandard2.0/log4net.xml",
-        "log4net.2.0.15.nupkg.sha512",
+        "log4net.2.0.13.nupkg.sha512",
         "log4net.nuspec",
         "package-icon.png"
       ]
@@ -2014,10 +2016,10 @@
         "serilog.nuspec"
       ]
     },
-    "Serilog.AspNetCore/6.0.1": {
-      "sha512": "5XW90k62V7G9I0D/j9Iz+NyRBB6/SnoFpHUPeLnV40gONV2vs2A/ewWi91QVjQmyHBfzFeqIrkvE/DJMZ0alTg==",
+    "Serilog.AspNetCore/6.1.0-dev-00281": {
+      "sha512": "H45yUiZYq1suKY/AHexKGe00H3PYw6Qwyc3CLQg06kmFHucPuPZySgsQ42TKXbzG/rVJ+jioQboWiCL0da+kuQ==",
       "type": "package",
-      "path": "serilog.aspnetcore/6.0.1",
+      "path": "serilog.aspnetcore/6.1.0-dev-00281",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2030,7 +2032,7 @@
         "lib/netstandard2.0/Serilog.AspNetCore.xml",
         "lib/netstandard2.1/Serilog.AspNetCore.dll",
         "lib/netstandard2.1/Serilog.AspNetCore.xml",
-        "serilog.aspnetcore.6.0.1.nupkg.sha512",
+        "serilog.aspnetcore.6.1.0-dev-00281.nupkg.sha512",
         "serilog.aspnetcore.nuspec"
       ]
     },
@@ -2637,10 +2639,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.Extensions.Logging.Log4Net.AspNetCore >= 6.1.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.6",
-      "Serilog.AspNetCore >= 6.0.1",
+      "Serilog.AspNetCore >= 6.1.0-dev-00281",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "Swashbuckle.AspNetCore.Newtonsoft >= 6.4.0",
-      "log4net >= 2.0.15"
+      "Swashbuckle.AspNetCore.Newtonsoft >= 6.4.0"
     ]
   },
   "packageFolders": {
@@ -2713,7 +2714,7 @@
           },
           "Serilog.AspNetCore": {
             "target": "Package",
-            "version": "[6.0.1, )"
+            "version": "[6.1.0-dev-00281, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -2722,10 +2723,6 @@
           "Swashbuckle.AspNetCore.Newtonsoft": {
             "target": "Package",
             "version": "[6.4.0, )"
-          },
-          "log4net": {
-            "target": "Package",
-            "version": "[2.0.15, )"
           }
         },
         "imports": [

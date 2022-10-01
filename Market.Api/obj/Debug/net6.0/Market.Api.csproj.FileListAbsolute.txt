@@ -57,7 +57,6 @@ D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Setti
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Serilog.Sinks.File.dll
-D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\log4net.config
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\log4net.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 D:\Ozodbekkkkk\Codes\DotNet\Market.Api\Market.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll

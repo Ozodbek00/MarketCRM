@@ -71,7 +71,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.1.0-dev-00281, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -80,10 +80,6 @@
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
               "version": "[6.4.0, )"
-            },
-            "log4net": {
-              "target": "Package",
-              "version": "[2.0.15, )"
             }
           },
           "imports": [
